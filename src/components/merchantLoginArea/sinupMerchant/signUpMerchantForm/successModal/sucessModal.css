@@ -1,0 +1,26 @@
+.sucess-modal {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    padding: 20px;
+
+}
+
+.img-logo-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-modal-sucss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-modal-sucss h1 {
+    color: #0c263a;
+}
+
+.sucess-modal h2 {
+    text-align: center;
+    color: #0c263a;
+}

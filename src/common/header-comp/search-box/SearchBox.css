@@ -1,0 +1,325 @@
+.searchIcons {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+
+.searchItem .logo a {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.searchItem .logo a img {
+    width: 50px;
+}
+
+.searchItem .logo a h4 {
+    color: #fff;
+    font-family: "Gugi", serif !important;
+    font-size: 22px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.logoText {
+    margin: 0;
+    font-size: 25px;
+    display: block;
+    font-weight: 500;
+}
+
+.searchIcon {
+    width: 50px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchSec {
+    background-color: transparent;
+    position: relative;
+}
+
+.sticky.active.searchSec {
+    padding: 10px 0 5px;
+}
+
+.searchItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Bar Start */
+.searchItem .logo {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.bar svg {
+    font-size: 29px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+/* search Info */
+.searchInf {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.sticky.diff .searchInf {
+    border-radius: 8px;
+}
+
+.sticky.active .searchInf,
+.sticky.diff .searchInf {
+    border-radius: 8px;
+}
+
+.searchInf input {
+    background-color: transparent;
+    padding: 0 15px;
+    height: 44px;
+    font-size: 16px;
+    border: 0;
+    color: #121619;
+}
+
+.searchInf input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.searchInf input:focus {
+    box-shadow: none;
+    border: 0;
+    background-color: transparent;
+}
+
+.rightSearchInfo {
+    display: flex;
+    align-items: center;
+}
+
+.allCategory {
+    background-color: #fff;
+    border-right: 1px solid #e8edf0;
+}
+
+.allCategory select {
+    background-color: transparent;
+    border: 0;
+    padding: 8px;
+    font-size: 16px;
+    color: #121619;
+    display: none;
+}
+
+.allCategory select:focus {
+    outline: 0;
+}
+
+.searchIcon svg {
+    font-size: 22px !important;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Call Details */
+.callDetail {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.callDetail svg {
+    font-size: 20px;
+}
+
+.callText h6 {
+    margin: 0;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 12px;
+}
+
+.callText p {
+    color: #111;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.searchIconsItem ul {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.searchIconsItem ul li a {
+    font-size: 20px;
+    color: #fff;
+    line-height: 20px;
+}
+
+
+
+.countParent a {
+    position: relative;
+}
+
+.count {
+    display: flex;
+    background-color: #b3262e;
+    color: #fff;
+    font-size: 13px;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 600;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+
+/* Trending */
+.treandingSec {
+    box-shadow: 0 0 8px 0 rgb(7 7 7 / 10%);
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    transition: .4s ease-in-out;
+    z-index: 1;
+}
+
+.trendingItem {
+    border: 1px solid #e8e7e67d;
+    border-top: none;
+    padding: 16px 15px;
+}
+
+.trendingTitle {
+    font-size: 13px;
+    line-height: 1.38;
+    color: #121619;
+}
+
+.trendingItem ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.trendingItem ul li a {
+    padding: 9px 8px;
+    border: 1px solid #e8e7e6;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #121619;
+    transition: .4s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.trendingItem ul li a:hover {
+    color: #fff;
+    border: solid 1px #5e0c36;
+    background-color: #5e0c36;
+}
+
+.closeBtnDrop {
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #5e0c36;
+    cursor: pointer;
+}
+
+.trendingItem {
+    position: relative;
+}
+
+.userNamePro .helll>li svg {
+    color: #5e0c36;
+}
+
+
+.searchItem .logo.mamas a .text strong {
+    text-transform: uppercase;
+    color: #333;
+    white-space: nowrap;
+}
+
+.searchItem .logo.mamas a .text p {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.brandText p {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.rightSearch {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.searchLocationBox {
+    width: 480px;
+}
+
+.searchLocation {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.searchLocation input {
+    width: 57%;
+}
+
+@media (max-width: 1100px) {
+    .searchSec.search {
+        display: none;
+    }
+    .searchItem .logo a h4{
+        font-size: 18px;
+    }
+    .navbar-expand-md .navbar-nav{
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .bar svg {
+        display: block;
+    }
+
+}

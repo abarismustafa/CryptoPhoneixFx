@@ -1,0 +1,156 @@
+.abaris-nav .navbar.navbarItem {
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+header.sticky {
+    transform: translateY(0px);
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+header.sticky.diff {
+    position: relative;
+    z-index: 111;
+}
+
+header.sticky.diff section.searchSec {
+    background: #fff;
+}
+
+header.sticky.diff .navbar .navbar-nav .nav-item .nav-link.active {
+    color: #fff;
+}
+
+header.sticky.diff .dropdown.categoryDropdown button.btn {
+    color: #1E3E62;
+}
+
+header.sticky.diff .navbar .navbar-nav .dropdown.categoryDropdown .dropdown-menu .nav-item .nav-link {
+    color: #fff;
+}
+
+.sticky.active .searchSection,
+.sticky.diff .searchSection {
+    background: #0c263a;
+    padding: 14px 0px;
+}
+
+header.sticky.diff .topHeaderSec {
+    background-color: #e4763b;
+}
+
+/* header.sticky.diff .topHeaderSec .socialMedia ul li a{
+    color: #1E3E62;
+} */
+
+header.sticky.active {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 11;
+    transform: translateY(-32px);
+    transition: .4s ease-in-out;
+    box-shadow: 0px 15px 10px -15px #6e6e6eb8;
+}
+
+.allCategoryDrop {
+    padding: 7px 10px;
+    background: #e8edf0;
+    width: 260px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: none;
+    cursor: pointer;
+}
+
+.menuCard {
+    display: flex;
+    align-items: center;
+}
+
+.allCategoryDrop i {
+    font-size: 20px;
+}
+
+.bannerContent .title p {
+    color: #626262;
+}
+
+.categoryList {
+    position: absolute;
+    top: 44px;
+    left: -350px;
+    z-index: -111;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+
+.categoryList ul {
+    margin: 0;
+    padding: 10px;
+    background: #fff;
+}
+
+.categoryList ul li a {
+    text-transform: capitalize;
+    color: #121619;
+    line-height: 33px;
+    display: block;
+    transition: .4s ease-in-out;
+}
+
+.allCategoryDrop:hover .categoryList {
+    opacity: 1;
+    left: 0px;
+    z-index: 111;
+    position: absolute;
+}
+
+.categoryList ul li a:hover {
+    color: #5e0c36;
+}
+
+nav.navbar.navbarItem.navbar-expand-md.navbar-light {
+    width: 100%;
+}
+
+.sticky.diff .searchSection {
+    border-bottom: 1px solid #939393;
+}
+
+@media only screen and (max-width: 767px) {
+    header.sticky.active {
+        top: 0px;
+    }
+
+    .searchItem .logo {
+        width: 100%;
+    }
+
+    .menuCard {
+        display: block;
+    }
+
+    .navbarArea {
+        display: none;
+    }
+
+    header.sticky.active .searchItem .searchSec,
+    header.sticky.active .searchItem .searchIcons {
+        display: none;
+    }
+    .sticky.active .searchSection,
+    .sticky.diff .searchSection {
+        padding: 5px 0px;
+    }
+}

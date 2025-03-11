@@ -1,0 +1,35 @@
+.position-relativee {
+    position: relative;
+}
+
+
+.box-hover {
+    width: 425px;
+    padding: 6px 0;
+    /* border-radius: 10px; */
+    position: absolute;
+   /* top: -17%;
+    left: 434px; */
+   top: -30%;
+    left: 48%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    color: black;
+    z-index: 999;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-align: center;
+
+}
+
+.positions-relative:hover .box-hover {
+    display: block;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+
+}
+
+.box-hover p {
+    margin: 0px;
+}

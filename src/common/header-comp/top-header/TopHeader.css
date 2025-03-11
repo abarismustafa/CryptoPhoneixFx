@@ -1,0 +1,134 @@
+.topHeaderSec {
+    background: transparent;
+    padding: 3px 0;
+}
+
+.topHeaderInfo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.freeReturn p {
+    color: #fff;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.languageOption {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.rightList {
+    display: flex;
+    align-items: center;
+}
+
+.pageLinks>ul,
+.socialMedia>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.socialMedia ul {
+    column-gap: 10px;
+
+}
+
+.pageLinks ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 14px;
+}
+
+.socialMedia>ul>li>a,
+.currencyDrop>button.btn.btn-secondary.dropdown-toggle {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    background: #e4763b;
+    padding: 0 8px;
+    border-radius: 5px;
+}
+
+.optionSelect {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.lang select,
+.rupees select {
+    background: transparent;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    border: 0;
+    font-size: 14px;
+}
+
+.countrySelect {
+    background-color: #ffffff;
+    padding: 2px 10px;
+    border: none;
+}
+
+.countrySelect {
+    outline: none;
+}
+
+/* .lang select option, .rupees select option{
+    color: #111;
+} */
+.miscel {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.socialMedia ul li a.userNameText {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+select.form-select.countrySelect {
+    width: 100px;
+    border: 0;
+    padding: 0 10px;
+    position: relative;
+}
+
+.miscel button.btn.btn-warning {
+    padding: 0 10px;
+}
+
+select.form-select.countrySelect:after {
+    content: "a";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .pageLinks ul li a {
+        font-size: 12px;
+    }
+}
+
+.lang select {
+    width: 100px;
+    color: #ffffff;
+    background: #5e0c36;
+    border: 0;
+    position: relative;
+}
